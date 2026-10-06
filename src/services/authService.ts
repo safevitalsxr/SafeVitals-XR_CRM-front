@@ -23,7 +23,9 @@ export interface VerifyOtpResponse {
     permissions?: string[]
     departmentId?: string
     teamId?: string
+    mustChangePassword?: boolean
   }
+  mustChangePassword?: boolean
 }
 
 export interface FirebaseLoginResponse {
